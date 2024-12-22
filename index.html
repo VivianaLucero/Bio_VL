@@ -1,49 +1,36 @@
-<div class="tabs">
-        <button class="tablinks" onclick="openTab(event, 'Accueil')" id="defaultTab">Accueil</button>
-        <button class="tablinks" onclick="openTab(event, 'À propos')">À propos</button>
-        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-    </div>
-
-    <div id="Accueil" class="tabcontent">
-        <h2>Accueil</h2>
-        <p>Bienvenue sur la page d'accueil.</p>
-    </div>
-
-    <div id="À propos" class="tabcontent">
-        <h2>À propos</h2>
-        <p>Découvrez plus d'informations sur nous ici.</p>
-    </div>
-
-    <div id="Contact" class="tabcontent">
-        <h2>Contact</h2>
-        <p>Contactez-nous via ce formulaire.</p>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
+    <title>Ma Biographie</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Viviana Lucero</h1>
-    <p>Salut !
-    Je m'appelle Viviana Lucero. Equatorienne en France.</p>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#work">Travaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <section id="about">
+            <h1>À propos</h1>
+            <p>Bienvenue sur ma biographie en ligne. Je suis un artiste passionné par la créativité.</p>
+        </section>
+
+        <section id="work">
+            <h1>Travaux</h1>
+            <p>Voici quelques exemples de mes œuvres. Restez inspiré !</p>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Envoyez-moi un message via <a href="mailto:exemple@email.com">mon email</a>.</p>
+        </section>
+    </div>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site avec Onglets</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-    
